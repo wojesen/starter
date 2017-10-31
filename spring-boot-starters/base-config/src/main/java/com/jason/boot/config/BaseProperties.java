@@ -3,9 +3,9 @@ package com.jason.boot.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Created by 01430959 on 2017/4/5.
+ * Created by jason
  */
-@ConfigurationProperties(prefix = "interconn")
+@ConfigurationProperties(prefix = "jason")
 public class BaseProperties {
 	String project;
 	String app;
